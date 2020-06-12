@@ -1,0 +1,138 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0px;
+}
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+.menu{
+height: inherit;
+display: flex;
+align-items: center;
+}
+.header  ol{
+display: flex;
+height: inherit;
+align-items: center;
+}
+.header  a{
+color: white;
+text-decoration: none;
+padding: 0 10px;
+height: inherit;
+display: flex;
+align-items: center;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+figure{
+    margin: 0 ;
+}
+.logo{
+    margin-left: 5px;
+}
+.principal{
+    height: 300px;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenprincipal{
+    object-fit: cover;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+}
+strong {
+    color: #026fff;
+}
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.acercademi { 
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.sobremi {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagen-sobremi{
+    width: 300px;
+}
+.titulo-sobremi{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.subtitulo-sobremi, .informacion-sobremi{
+    margin: 10px;
+}
+.descripcion-sobremi{
+    font-size: 20px;
+}
+.sobremi-detalles{
+    width: 500px;
+}
+.imagen-sobremi-contenedor{
+    width: 300px;
+}
+.lista-massobremi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.massobremi{
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: #f4f4f4;
+}
+.detalles-sobremi{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    justify-content: center;
+}
+.imagen-massobremi{
+    width: 450px;
+    height: 200px;
+    object-fit: cover;
+}
+.contacto{
+    background-color: #826fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
